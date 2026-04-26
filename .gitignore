@@ -1,0 +1,50 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+.terraform/
+terraform.tfvars
+
+# Lambda zip artifacts
+*.zip
+
+# Python virtual environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Node modules
+node_modules/
+
+# Environment variable files
+.env
+.env.*
+!.env.example
+
+# AWS credential files
+~/.aws/credentials
+
+# IDE / editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS metadata
+.DS_Store
+
+# pytest cache
+.pytest_cache/
+.hypothesis/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml

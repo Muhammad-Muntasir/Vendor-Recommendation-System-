@@ -1,0 +1,21 @@
+{
+  "version": "0",
+  "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "detail-type": "JobCreated",
+  "source": "retailfixit.jobs",
+  "account": "123456789012",
+  "time": "2025-07-28T10:00:00Z",
+  "region": "us-east-1",
+  "resources": [],
+  "detail": {
+    "jobId": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "type": "plumbing",
+    "location": "Austin, TX",
+    "urgency": "High",
+    "slaDeadline": "2025-07-29T10:00:00Z",
+    "description": "Burst pipe in commercial kitchen requiring immediate repair.",
+    "createdAt": "2025-07-28T10:00:00Z",
+    "schemaVersion": "1.0",
+    "status": "Pending"
+  }
+}

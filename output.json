@@ -1,0 +1,1 @@
+{"statusCode": 500, "headers": {"Content-Type": "application/json", "Access-Control-Allow-Origin": "*"}, "body": "{\"error\": {\"code\": \"INTERNAL_ERROR\", \"message\": \"An unexpected error occurred.\"}}"}

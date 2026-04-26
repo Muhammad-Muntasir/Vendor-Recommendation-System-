@@ -1,0 +1,19 @@
+{
+  "name": "ai-vrs",
+  "version": "1.0.0",
+  "description": "AI-VRS automates intelligent vendor selection for service jobs on the RetailFixIt platform. When a new job is created, the system evaluates all eligible vendors, ranks the top 5 candidates using a hybrid scoring engine, and presents human-readable explanations with confidence indicators to administrators.",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cypress": "^15.14.1"
+  }
+}
