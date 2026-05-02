@@ -9,7 +9,7 @@
   <body>
     <div id="root"></div>
     <!-- Polyfill: amazon-cognito-identity-js uses Node.js 'global' which
-         doesn't exist in browsers. This one-liner fixes the ReferenceError. -->
+         doesn't exists in browsers. This one-liner fixes the ReferenceError. -->
     <script>window.global = window;</script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
